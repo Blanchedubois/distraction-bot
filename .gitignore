@@ -1,0 +1,28 @@
+# build output
+.build/
+dist/
+*.xcodeproj/
+.swiftpm/
+
+# private: renders from real data, the workshop notes that quote the author, stray data files (PLAN_PUBLIC_RELEASE §5a Q6)
+docs/shots/
+docs/PLAN_*.md
+docs/REVIEW_*.md
+docs/IMPACT_ANALYSIS.md
+docs/probe-*.swift
+log.sqlite
+*.sqlite
+*.backup-*
+subjects*.json
+prefs.json
+session.json
+calendar.ics
+calendar.json
+
+# macOS
+.DS_Store
+
+# private: judge fixtures and their runs are drawn from real study sessions (PLAN_PUBLIC_RELEASE §6 P0)
+docs/judge_fixture*
+
+docs/RESEARCH_*.md
