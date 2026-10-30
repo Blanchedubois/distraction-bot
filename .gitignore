@@ -16,8 +16,8 @@ log.sqlite
 subjects*.json
 prefs.json
 session.json
-calendar.ics
-calendar.json
+/calendar.ics
+/calendar.json
 
 # macOS
 .DS_Store
